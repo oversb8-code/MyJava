@@ -19,7 +19,7 @@ public class QnA {
         System.out.println("b= "+b);
         System.out.println("c= "+c);
         System.out.println("result = " + result);
-        // 결과값 출력
+        // 결과값 출력.
         //...
 
 
