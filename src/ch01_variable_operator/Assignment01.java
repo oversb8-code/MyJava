@@ -11,13 +11,13 @@ public class Assignment01 { //대입연산자
         //+= 붙여서 적어야 함.(복합대입)
         System.out.println("x :  " +x);
 
-        x *= 4;
+        x *= 4; // x = x*4
         System.out.println("x :  " +x);
-        x %= 5;
+        x %= 5;  // x = x%5
         System.out.println("x :  " +x);
-        x -= 1;
+        x -= 1; // x = x-1
         System.out.println("x :  " +x);
-        x += 5;
+        x += 5; // x = x+5
         System.out.println("x :  " +x);
 
 
