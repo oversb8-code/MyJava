@@ -43,7 +43,7 @@ public class lll {
 
         int result = max > max1 || max < max1 ? max: max1;
         System.out.println("result :" + result);
-        System.out.println(x + "," + y+ "," + z+ "중 최대 수는 "+ result + "입니다." );
+        System.out.println(x + "," + y+ "," + z+ "중 최대 수는 "+ result + "입니다." ); // 도움 받음.. :3
 
 
 
