@@ -12,31 +12,34 @@ public class aaa {
         // x = 5
 
         x += ++a;
-        //x = x+ ++a
-        // x= 5 + 6
+        // ++a = 6 = 5 + 1
+        // a = 6
+        // x = x+ ++a
+        // x = 5 + 6
         // x = 11
 
         int y = ++a;
-        // y = 7
+        // y = 7 = 1 + 6(++a)
+        // a = 7
 
         y += a + --b ;
         // y = y + a + --b
-        // y = 7 + 6 + 2
-        // y = 15
+        // y = 7 + 7 + 2
+        // y = 16
 
         char ch3 = 'D' ;
         int z = ch3 >= 'A' && ch3 <= 'Z' ? --y : x + 2 ;
         //조건식 ture
-        //x = 11, y=15
-        // --y = 14
-        // y = 15
+        //x = 11, y=16
+        // --y = 15
+        // y = 16
 
         int result = 0;
         result = x >y ? z-y : x+z;
         // x> y (11 > 15) 조건식 false
         //x = 11,  z= --y
-        //z = 14+1 = y
-        // result = 26
+        //z = 15
+        // result = (x+z) = 11+15 = 26
 
         System.out.println("result :" + result);
 
