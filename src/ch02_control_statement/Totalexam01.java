@@ -55,7 +55,9 @@ public class Totalexam01 { // 변수 체크.
 
 
         System.out.printf("이름 : %s, 국어 : %d, 영어 : %d, 수학 :%d, 총점 : %d, 평균 : %d, 학점 : %s, 메세지 : %s",name, kor, eng, math, sum, ave, grade, message);
+        System.out.println();;
         System.out.println();
+
         System.out.println("이름 : " + name + "님");
         System.out.println("국어 : " + kor + "점");
         System.out.println("영어 : " + eng + "점");
