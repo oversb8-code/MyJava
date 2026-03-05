@@ -9,6 +9,6 @@ public class for04 {
             total += i*i; // 연산자 체크
         }
 
-        System.out.println("총합 : total "+ total);
+        System.out.println("총합 : "+ total);
     }
 }

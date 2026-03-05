@@ -11,6 +11,6 @@ public class For03 {
             total += i;
         }
 
-        System.out.println("총합 : total " + total);
+        System.out.println("총합 : " + total);
     }
 }
