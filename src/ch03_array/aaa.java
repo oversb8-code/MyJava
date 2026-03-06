@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class aaa { // 혼자 연습하기
     static void main() {
-// 이름 입력하면 다른거 나오게 하기.
+// 이름 입력하면 다른거 나오게 하기.111
 
         Scanner scan = new Scanner(System.in);
         System.out.print( "오퍼레이터 이름 입력 : ");
