@@ -23,8 +23,9 @@ public class aaa { // 혼자 연습하기
 
             System.out.println("타입 :" );
             String type1 = scan.nextLine();
-break;
+            break;
         }
+
         System.out.println("");
 
 
