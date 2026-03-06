@@ -18,11 +18,9 @@ int counter = 0; // 카운터 변수
                     if(jumsu <0 ){
                         System.out.println("음수가 입력되어서 종료합니다.");
                         break;
-
                 }
                     counter++;
                 total += jumsu;
-
                 }
         System.out.println("총합 : " + total);
         System.out.println("평균 : " + ((double)total/counter));
