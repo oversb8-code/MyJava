@@ -8,7 +8,7 @@ public class ProductMain02 {
         // 객체 생성 02
         // 클래스이름 객체이름 = new 생성자이름();
         Product02 shin = new Product02();
-    // 단가는 비밀스러운 정보라서 외부로 노출하지 않을 겁니다. (접근지정자)
+        // 단가는 비밀스러운 정보라서 외부로 노출하지 않을 겁니다. (접근지정자)
 
         Product02 blackbean = new Product02();
 
