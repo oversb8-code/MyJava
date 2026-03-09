@@ -9,17 +9,16 @@ public class FOR {
 
         int odd = 0, even = 0; // 홀수 짝수 , 지역 변수는 무조건 초기화해야함.
 
-        for (int i = 1; i<11 ; i++) {
-          if(i%2==0){ // 짝수인지 묻는 조건식
-              even += i; // true 이면 실행
-          }else{
-              odd += i; // false 일시 실행
-          }
+        for (int i = 1; i < 11; i++) {
+            if (i % 2 == 0) { // 짝수인지 묻는 조건식
+                even += i; // true 이면 실행
+            } else {
+                odd += i; // false 일시 실행
+            }
         }
 
         System.out.println("홀수의 합 : " + odd);
         System.out.println("짝수의 합 : " + even);
-
 
 
     }

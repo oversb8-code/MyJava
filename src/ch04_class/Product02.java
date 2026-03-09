@@ -4,6 +4,8 @@ public class Product02 { // 소프트웨어 모델링 - 클래스 만들기 01.
     // static 변수는 모든 객체들이 공유할 목적으로 사용되는 변수
     // 클래스 이름으로 접근 가능해서 '클래스 변수' 라고도 부름.
     // private class로 쓰면 숨김 처리가 되긴 하나, 굳이 class를 숨길 필요는 없음.
+    // ctrl + alt + L == 줄 정리.
+
     static String brand; // 브랜드 (스태틱 변수 = 클래스 변수)
     // 스태틱 변수 = 공유하기 위한 변수 , 클래스 이름으로 접근이 가능.
     // 이후에 값을 바꿀건지 말지에 대해서는 보호 장치가 필요함.
@@ -30,7 +32,7 @@ public class Product02 { // 소프트웨어 모델링 - 클래스 만들기 01.
     public void setPrice(int price) {
         this.price = price;
     } // this  == 이 클래스에 있는 해당 변수를 참조합니다
-      // 해당 변수 >> 물리적으로 가까운 곳이 아니므로 잘 체크하기.
+    // 해당 변수 >> 물리적으로 가까운 곳이 아니므로 잘 체크하기.
 
     public int getPrice() {
         return price;
