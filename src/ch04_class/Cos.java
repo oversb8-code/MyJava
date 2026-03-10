@@ -36,7 +36,25 @@ public class Cos {
         String result = "캐릭터 이름 : "+ caracter_Name + "\n장르 이름 : "+ series_Name + "\n의상 : "+ clothes + "\n소품 : "+ props + "\n난이도 : "+ difficult_Level + "\n비용 : "+ getCost();
         return result;
         }
-    }
+
+        public Cos(){
+
+        };
+        public Cos(String caracter_Name,String series_Name){
+            this.series_Name = series_Name;
+            this.caracter_Name = caracter_Name;
+
+        }
+
+        public void display(){
+            System.out.println("캐릭터 이름 : "+ caracter_Name);
+            System.out.println("장르 이름 : "+ series_Name);
+        }
+        }
+
+
+
+
 
 
 
