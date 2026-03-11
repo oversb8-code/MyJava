@@ -105,3 +105,4 @@ public class InheTest04 {
 // 배열로 요리사 이름, 요리 스타일 작성..?
 // 결과 if else ,boolean
 
+
