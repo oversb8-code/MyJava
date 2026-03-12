@@ -6,9 +6,9 @@ public class Product01 { // 단계 01 : 클래스 정의
     // 상품이 가질 수 있는 정보 - 이름 - 문자열, 단가 - 정수, 입고 날짜 - 날짜
     //  해당 클래스는 구체적인 상품이 아니라, 상품을 뭉뚱그려서 틀로 표시해둔 것.
     // 멤버 변수
-    String name ; // 상품명
-    int price ; // 단가
-    String inputdate ; // 입고 날짜 - 편의상 문자열로
+   public String name ; // 상품명 public
+   int price ; // 단가
+   String inputdate ; // 입고 날짜 - 편의상 문자열로
 
     // 변수(속성), 메소드(행동), 생성자
     // 메소드 = 함수

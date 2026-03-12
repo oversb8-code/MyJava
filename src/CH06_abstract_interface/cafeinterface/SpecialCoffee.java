@@ -1,0 +1,44 @@
+package CH06_abstract_interface.cafeinterface;
+
+public class SpecialCoffee extends Beverage05 implements WaterAdjustable,ShotAddable,MilkAddable {
+
+    private double waterAmount;
+    private int shotCount;
+    private String milkType;
+
+
+    public SpecialCoffee(String name, double price, double waterAmount, int shotCount, String milkType) {
+        super(name, price);
+        this.waterAmount = waterAmount;
+        this.shotCount = shotCount;
+        this.milkType = milkType;
+    }
+
+    @Override
+    public void Milkamount(double milk) {
+
+    }
+
+    @Override
+    public void drink() {
+        System.out.println(super.getName() + "를 마십니다.");
+    }
+
+    @Override
+    public void changeMilk(String milkType) {
+        System.out.println("타입 변경 이전 " + this.milkType + " 이후 " + milkType);
+    this.milkType = milkType;
+    }
+
+    @Override
+    public void addShot(int count) {
+        this.shotCount += count;
+        System.out.println("샷이" + count + "개 추가 되어 " + shotCount + "개입니다.");
+    }
+
+    @Override
+    public void adjustWater(double amount) {
+        this.waterAmount += waterAmount;
+        System.out.println("물 " + amount + "ml를 추가하였습니다.");
+    } // 상속 후 추상메소드 다 오버레이딩
+}

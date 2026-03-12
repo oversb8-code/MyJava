@@ -16,16 +16,32 @@ public class Myarr01 { // 배열
         arr[2] = arr[0] + 3; // 7
         arr[1] = arr[0] + arr[2]; // 11
 
+        System.out.println("출력");
+        for(int aaa : arr){
+            System.out.println(aaa);
+        }
+
+        System.out.println();
         for (int i = 0; i < arr.length ; i++) {
             // 조건식이 원래라면 i < 3 인데
             // i < arr.length로 치환하는 이유는
             // 배열의 갯수를 세기 때문에 배열 메소드로 적어주기.
             System.out.println(arr[i]);
         }
+
+        System.out.println();
+
         // 방법 02 : 초기화 기법
         int[] brr = {15,30,22};
         for (int i = 0; i < brr.length; i++) {
             System.out.println(brr[i]);
         }
+
+        System.out.println();
+        System.out.println("출력");
+for(int ss : brr){
+    System.out.println(ss);
+}
+
     }
 }
