@@ -20,7 +20,7 @@ public class Cappuccino05 extends Beverage05 implements MilkAddable {
 
     @Override
     public void drink() {
-        System.out.println( "거품량이 "+ foamAmount + "추가 된" + super.getName() + "을 마십니다." );
+        System.out.println( "거품량이 "+ this.foamAmount + "추가 된" + super.getName() + "을 마십니다." );
     }
 
     //생성자 생성
